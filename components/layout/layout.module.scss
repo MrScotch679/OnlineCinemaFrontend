@@ -1,0 +1,27 @@
+$bar-width: 20%;
+
+.html {
+	@apply h-full w-full;
+
+	.layout {
+		@apply flex h-full w-full;
+
+		nav,
+		aside {
+			@apply h-full;
+			width: $bar-width;
+		}
+
+		nav {
+			@apply border-r border-r-gray-800;
+		}
+
+		aside {
+			@apply border-l border-l-gray-800;
+		}
+
+		.contentWrapper {
+			@apply h-full w-full p-layout;
+		}
+	}
+}
