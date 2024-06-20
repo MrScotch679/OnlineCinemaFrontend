@@ -7,9 +7,7 @@ import { Sidebar } from './sidebar/sidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
-interface LayoutProps extends PropsWithChildren {}
-
-export const Layout: FC<LayoutProps> = ({ children }) => {
+export const Layout: FC<PropsWithChildren> = ({ children }) => {
 	return (
 		<html lang='en' className={`${inter.className} ${styles.html}`}>
 			<body className={styles.layout}>

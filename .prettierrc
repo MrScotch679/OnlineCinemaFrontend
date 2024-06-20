@@ -9,6 +9,7 @@
 	"importOrder": [
 		"<THIRD_PARTY_MODULES>",
 
+		"^@/providers/(.*)$",
 		"^@/assets/(.*)$",
 		"^@/pages/(.*)$",
 		"^@/ui/(.*)$",
@@ -19,6 +20,10 @@
 
 		"^@/hooks/(.*)$",
 		"^@/store/(.*)$",
+
+		"^@/types/(.*)$",
+		"^@/enums/(.*)$",
+		"^@/constants/(.*)$",
 
 		"^../(.*)",
 		"^./(.*)",

@@ -1,0 +1,7 @@
+.groupWrapper {
+	@apply flex flex-col gap-1;
+
+	.groupTitle {
+		@apply font-medium;
+	}
+}

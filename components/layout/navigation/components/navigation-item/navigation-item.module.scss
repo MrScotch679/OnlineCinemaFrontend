@@ -1,0 +1,14 @@
+.textLink {
+	@apply flex justify-start items-center gap-2;
+}
+
+.active {
+	@apply border-r-primary;
+	> a > span {
+		@apply text-white;
+	}
+
+	> a > svg {
+		@apply fill-primary;
+	}
+}

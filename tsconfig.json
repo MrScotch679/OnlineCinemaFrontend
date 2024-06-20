@@ -20,6 +20,10 @@
 		"paths": {
 			"@/*": ["./*"],
 			"@/ui/*": ["./components/ui/*"],
+			"@/enums/*": ["./enums/*"],
+			"@/provider/*": ["./provider/*"],
+			"@/constants/*": ["./constants/*"],
+			"@/types/*": ["./types/*"],
 			"@/pages/*": ["./components/pages/*"],
 			"@/assets/*": ["./assets/*"],
 			"@/config/*": ["./config/*"],
